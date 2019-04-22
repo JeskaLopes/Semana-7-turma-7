@@ -4,5 +4,5 @@ titulo.textContent="Eu sou um titulo"
 
 let texto = document.querySelector('.HERO');
 console.log(texto)
-texto.style.color="red";
-texto.style.backroundColor = '#fff';
+texto.style.color="black";
+texto.style.backgroundColor = '#f12375';
