@@ -1,4 +1,5 @@
-const numero = parseInt(prompt('Escolha um numero de 1 a 12'));
+function exibir(){
+    const numero =parseInt(document.getElementById('numero').value);
 
 switch (numero){
     
@@ -52,5 +53,5 @@ switch (numero){
 
     default:
     alert('escolha um numero valido'); 
-
+    }
 }
